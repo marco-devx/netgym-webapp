@@ -1,0 +1,39 @@
+{
+	"compilerOptions": {
+		"lib": ["DOM", "ES2020"],
+		"jsx": "react-jsx",
+		"target": "ES2020",
+		"noEmit": true,
+		"skipLibCheck": true,
+		"useDefineForClassFields": true,
+
+		"module": "ESNext",
+		"isolatedModules": true,
+		"resolveJsonModule": true,
+		"moduleResolution": "bundler",
+		"allowImportingTsExtensions": true,
+		"baseUrl": ".",
+
+		"paths": {
+			"@/*": ["src/*"],
+			"@types": ["src/types"],
+			"@guards": ["src/guards"],
+			"@services": ["src/services"],
+			"@services/*": ["src/services/*"],
+			"@hooks": ["src/hooks"],
+			"@store": ["src/store"],
+			"@utils": ["src/utils"],
+			"@components/*": ["src/components/*"],
+			"@constants": ["src/constants"],
+			"@assets/*": ["src/assets/*"],
+			"@config": ["src/config"],
+			"@pages": ["src/pages"],
+			"@icons": ["src/icons"]
+		},
+
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true
+	},
+	"include": ["src", "*.ts"]
+}

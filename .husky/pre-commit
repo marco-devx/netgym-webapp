@@ -1,0 +1,5 @@
+# Ejecutar biome check --fix
+bun run check:fix
+
+# Agregar los archivos modificados por el fix al staging area
+git add -u
